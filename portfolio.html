@@ -1,0 +1,422 @@
+<html>
+  <head>
+    <style>
+      #outer{
+        width: 1100px;
+        min-height: 2000px;
+        margin: 0px 250px;
+        box-shadow: 0px 0px 5px gray;
+        border-radius: 20px;
+      }
+      .nav{
+        height: 50px;
+        width: 1100px;
+        background:rgb(43, 3, 3);
+        
+      }
+      .main{
+        width:1100px;
+        height: 550px;
+        
+      }
+      .ribbon{
+        width: 1100px;
+        height: 80px;
+        background: #00AC98;
+        line-height: 80px;
+        padding-left: 125px;
+        box-sizing: border-box;
+
+      }
+      .ribbon h2{
+        color:white;
+        
+      }
+      #m1{
+        background: url("images/img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .l{
+        width: 450px;
+        height: 50px;
+        padding-left: 125px;
+        float: left;
+        box-sizing: border-box;
+
+      }
+      .r{
+        width: 650px;
+        height: 50px;
+        float: left;
+        box-sizing: border-box;
+        padding-left: 50px;
+        box-sizing: border-box;
+
+      }
+      .l img{
+        width:150px;
+        height: 30px;
+        margin-top: 10px;
+      }
+
+      .r ul li{
+        display: inline-block;
+        margin-right: 15px;
+      }
+      
+      ul li a {
+        text-decoration: none;
+        color:white;
+      }
+      ul li a:hover{
+        color:#00AC98
+      }
+      .main{
+        padding:25px 125px;
+        box-sizing: border-box;
+      }
+      #m1{
+        color:white;
+        height: 450px;
+      }
+      h1,h2,h6{
+        margin:5px 0px;
+      }
+      h5{
+        margin-bottom: 0px;
+      }
+      .btn{
+        width: 125px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        background: #F6F484;
+        color: black;
+        font-weight: bold;
+        border: none;
+        box-shadow: 0px 0px 3px white;
+      }
+      .s{
+        width: 200px;
+        height: 50px;
+        float: left;
+        box-shadow: 0px 0px 1px white;
+        margin-top: 20px;
+        padding: 10px 7px;
+        box-sizing: border-box;
+        line-height: 10px;
+      }
+      .row1{
+        width: 850px;
+        height: 75px;
+      
+        margin-top: 25px;
+      }
+      .c{
+        width: 277px;
+        height: 100px;
+        float: left;
+         box-shadow: 0px 0px 1px gray;
+         text-align: center;
+          padding: 25px 25px;
+        box-sizing: border-box;
+        
+      }
+      .br{
+        width: 50px;
+        height: 50px;
+        background: #00AC98;
+        float: left;
+        border-radius: 5px;
+       
+      }
+       .br img{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+       
+       
+      }
+      .row2{
+        width: 850px;
+        height: 100px;
+        text-align: center;
+       
+        padding-top: 25px;
+        box-sizing: border-box;
+        margin-top: 60px;
+        
+       
+      }
+      .row3{
+        width: 850px;
+        height: 200px;
+        margin-top:10px;
+       
+      }
+      .row4{
+        width: 850px;
+        height: 50px;
+        text-align: center;
+        
+      }
+      .cr{
+        width: 268px;
+        height: 25px;
+        padding-top: 10px;
+        text-align: center;
+        margin-right: 15px;
+        float: left;
+      }
+      .c1{
+        width: 260px;
+        height: 200px;
+        box-shadow: 0px 0px 1px gray;
+        float: left;
+        margin-right: 15px;
+        padding: 20px 5px;
+        box-sizing: border-box;
+        position: relative;
+        text-align: center;
+      }
+      .c2{
+        width: 260px;
+        height: 200px;
+        box-shadow: 0px 0px 1px gray;
+        float: left;
+        margin-right: 15px;
+      }
+      .c2 img{
+        width: 268px;
+        height: 200px;
+      }
+      .row3 .c1 .br{
+      position: absolute;
+      left: 40%;
+      }
+      .ribbon #x li{
+        font-size: 25px;
+        display: inline-block;
+        margin-right: 75px;
+       
+       
+      }
+       #x li a {
+        text-decoration: none;
+        color:white;
+      }
+      .footer{
+        width: 1100px;
+        height: 300px;
+        background: #F5F7F9;
+        border-radius: 0px 0px 20px 20px;
+        padding: 25px 125px;
+        box-sizing: border-box ;
+        line-height: 20px;
+         background:rgb(43, 3, 3);
+         color: #F5F7F9;
+      }
+      .sd{
+        width: 460px;
+        float: left;
+        height: 225px;
+        
+       
+        padding: 10px 10px;
+        box-sizing: border-box;
+        font-size: 14px;
+
+      }
+      
+      .sc{
+        width: 150px;
+        height: 225px;
+        float: left;
+        margin-left:15px;
+      }
+      #st{
+        width: 200px;
+      }
+      .i{
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        float: left;
+        background: #00AC98;
+        border-radius: 3px;
+      }
+      
+      .sc a{
+        color:white;
+        line-height: 25px;
+        text-decoration: none;
+      }
+      .i img{
+        width: 22px;
+        height: 22px;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div id="outer">
+      <div class="nav"><div class="l">
+        <img src="images/logo.webp" alt="">
+      </div>
+      <div class="r">
+        <ul type="none">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Creative Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          
+        </ul>
+      </div>
+    </div>
+      <div class="main" id="m1">
+        <h5>Hello!</h5>
+        <h1>I'm Harsha <br>
+        Chathuranga</h1>
+        <h2>Creative <strong style="color:#F6F484">Web Designer</strong></h2>
+        <p>Are you searching fro a designer to take your brand <br>next level and help it grow? Contact me to start <br>working together right now!</p>
+        <button class="btn">Get Started</button><br><br>
+        <div class="s">
+          <small>Upcoming Project<br><br>
+            Vega EXTiOS Mobile App Design
+            </small>
+        </div>
+        <div class="s">
+          <small>
+            Featured Project <br><br>
+            Shoppy iOS Mobile App Design
+          </small>
+        </div>
+        
+      </div>
+      <div class="main">
+        <div class="row1">
+          <div class="c"><div class="br">
+            <img src="images/i4.png" alt="">
+          </div><h1>2,700</h1><small>Project done</small></div>
+          <div class="c"><div class="br">
+            <img src="images/i5.png" alt="">
+          </div><h1>1000+</h1><small>Satisfied Clients</small></div>
+          <div class="c"><div class="br">
+            <img src="images/i6.png" alt="">
+          </div><h1>100%</h1><small>Users Choice</small></div>
+        </div>
+        <div class="row2">
+         <small>WHAT I DO FOR CLIENTS </small><h1>Popular Services</h1>
+        </div>
+        <div class="row3">
+          <div class="c1"><div class="br">
+            <img src="images/i1.png" alt="">
+          </div>
+          <h3 style="margin-top: 60px;">MOBILE APP DESIGN</h3>
+          <p><small>App UI design focuses on the overall look and<br>feel of the application, UX focuses on the<br>
+          actual functioning and accessibility.</small></p>
+        </div>
+          <div class="c1"><div class="br">
+            <img src="images/i2.png" alt="">
+
+          </div>
+          <h3 style="margin-top: 60px;"> WEB DESIGN</h3>
+          <p><small>Web design includes user interface design(UI<br>design) user experience design(UX design),<br>and search engine optimization.</small></p>
+        </div>
+          <div class="c1"><div class="br">
+            <img src="images/i3.png" alt="">
+
+          </div>
+          <h3 style="margin-top: 60px;">SOCIAL MEDIA DESIGN</h3>
+          <p><small>Social media design is the process of <br>creating content for social media platforms <br> to promote your business.</small></p>
+        </div>
+        </div>
+
+      </div>
+      <div class="ribbon">
+        <h2>Trusted over 1000+ clients in the world <button class="btn" style="margin-left: 75px;">Get a Quote</button></h2>
+      </div>
+      
+      <div class="main" style="background:#F5F7F9;height:400px;">
+
+        <div class="row2" style="margin-top:0px;">
+         <small>MY RECENT WORKS </small><h1>Featured Projects</h1>
+        </div>
+
+        <div class="row3">
+          <div class="c2"><img src="images/ui.png" alt=""></div>
+          <div class="c2"><img src="images/ui1.png" alt=""></div>
+          <div class="c2"><img src="images/book.png" alt=""></div>
+        </div>
+        <div class="row4">
+          <div class="cr"><small>Shopee iOS Mobile App UI Design</small></div>
+          <div class="cr">
+            <small>Doobe iOS Mobile App UI Design</small>
+          </div>
+          <div class="cr" style="margin-right: none;">
+            <small>Book Cover Design</small>
+          </div>
+        </div>
+        </div>
+        
+        <div class="main" style="height: 350px;">
+          <div class="row2" style="margin-top: 0px;">
+         <small>WHAT THEY SAY ABOUT ME </small><h1>Testimonials</h1>
+        </div>
+        <div class="row4"><small>"Harsha Chathuranga is really good to work with you. This is a professional designer and quality work<br>100% recommended."</small>
+        <br><br>
+        <img src="images/q1.png" alt="" height="50px" width="50px"><br>
+        <p><b>Albert Fibonacci</b></p>
+        <p><small>Architect - Siyana Consultancy Services</small></p><h2>. . .</h2>
+      </div>
+
+
+        </div>
+       <div class="ribbon" >
+        <ul type="none" id="x">
+          <li><a href="#">Behance</a></li>
+          <li><a href="#">dribbble</a></li>
+          <li><a href="#">wacom</a></li>
+          <li><a href="#">ARTSTATION</a></li>
+          <li><a href="#">Teesping</a></li>
+          
+        </ul>
+       </div>
+       <div class="footer">
+        <div class="sd">
+          <img src="images/logo.webp" width="150px" height="30px"><br><br>
+          <p>I an a UI/UX web, and graphic designer. helped individuals and companies expand their brands and create creative digital experiences that business and make a positive difference.</p>
+          <h3 style="color:#00AC98; font-size:20px">Find me</h3>
+          <div class="i"><img src="images/facebook.png" alt=""></div>
+          <div class="i"><img src="images/google.png" alt=""></div>
+          <div class="i"><img src="images/icon/insta.png" alt=""></div>
+          <div class="i"><img src="images/linkedin.png" alt=""></div>
+          
+        </div>
+        <div class="sc">
+          <h1 style="color: #00AC98;margin-bottom:40px">Discover</h1>
+          <a href="#">Home</a><br>
+          <a href="#">About me</a><br>
+          <a href="#">Services</a><br>
+          <a href="#">Creative Portfolio</a><br>
+          <a href="#">Contact me</a><br>
+          <a href="#">FAQs</a><br>
+          
+        
+        </div>
+        <div class="sc" id="st">
+          <h1 style="color: #00AC98;margin-bottom:40px">Contact Info</h1>
+          <h4 style="margin-bottom: 5px;">Call me</h4>
+          +91 8765432455
+          <br>
+          <h4 style="margin-bottom: 5px;">Email me</h4>
+          harsha.cs@gmail.com
+        </div>
+       </div>
+    </div>
+
+  </body>
+</html>
